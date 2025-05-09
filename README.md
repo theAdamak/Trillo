@@ -27,7 +27,27 @@ Launch live-server for live reloading.
 Watch and compile Sass files into CSS.
 
 🛠️ npm Scripts
-npm run start: Start the development server and watch Sass files.
-npm run watch:sass: Watch for changes in Sass files and compile them.
-npm run compile:sass: Manually compile Sass files into CSS.
-npm run build:css: Build the final CSS, including autoprefixing and minification.
+
+Start the development server and watch Sass files:
+
+```bash
+npm run start
+```
+
+Watch for changes in Sass files and compile them:
+
+```bash
+npm run watch:sass
+```
+
+Manually compile Sass files into CSS:
+
+```bash
+npm run compile:sass
+```
+
+Build the final CSS, including autoprefixing and minification:
+
+```bash
+npm run build:css
+```
